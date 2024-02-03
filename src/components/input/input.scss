@@ -1,0 +1,30 @@
+.boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    label{
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+    input{
+        width: 220px;
+        height: 40px;
+        font-style: italic;
+        margin-bottom: 9px;
+        padding: 8px 15px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        color: black;
+
+        &:hover{
+            border-color: #ccc;
+        }
+        &:focus{
+            border-color: blue;
+        }
+
+    }
+}
+
